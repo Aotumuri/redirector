@@ -15,7 +15,7 @@
     const num = params.get("num");
 
     if (MAP[num]) {
-      location.replace(base + MAP[num]);
+      location.replace(MAP[num]);
     } else {
       document.body.innerText = "Unknown redirect key.";
     }
